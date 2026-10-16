@@ -12,7 +12,7 @@ header{
     justify-content: space-between;
     background-color: #ABABB8;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    padding: 15px 20px;
+    padding: 15px 80px;
     align-items: center;
     width: auto;
     height: 100px;
@@ -37,8 +37,58 @@ header > div > button{
     color: #0368E5;
 }
 #section1{
-    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
     height: 900px;
     background-image: url(../img/background.png);
     background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+#section1 > div:first-child{
+    height: 142px;
+    width: 590px;
+    background-color: #929457;
+    color: #FF3333;
+    font-size: 80px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 4px black;
+}
+#section1 > div:last-child{
+    height: 117px;
+    width: 655px;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+#section1 > div:last-child > div:first-child{
+    height: 117px;
+    width: 361px;
+    color: white;
+    font-size: 80px;
+    background-color: #FF3333;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section1 > div:last-child > div:last-child{
+    height: 117px;
+    width: 288px;
+    color: #ECCC94;
+    display: flex;
+    align-items: center;
+    font-size: 80px;
+}
+#section2{
+    height: 900px;
+    padding: 50px 80px;
+    background-color: #C1A574;
+    display: flex;
+    justify-content: center;
 }
